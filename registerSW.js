@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/example-react-vite-pwa/sw.js', { scope: '/example-react-vite-pwa/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/lost-ark-bid-calculator/sw.js', { scope: '/lost-ark-bid-calculator/' })})}
