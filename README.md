@@ -9,4 +9,4 @@ Bid Optimization:
 <br>
 <br>
 
-<img src="Screenshot_20250105_220559_Chrome.jpg" alt="Description" width="300">
+<img src="Screenshot_20250108_015136_Chrome.jpg" alt="Description" width="300">
