@@ -3,14 +3,14 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'example-react-vite-pwa', // <--- 👀
+  base: 'lost-ark-bid-calculator', // <--- 👀
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'Example React Vite PWA', // <--- 👀
-        short_name: 'React Vite PWA', // <--- 👀
+        name: 'Lost Ark Bid Calculator', // <--- 👀
+        short_name: 'Lost Ark Bid Calculator', // <--- 👀
         description: 'Description', // <--- 👀
         theme_color: '#ffffff',
         icons: [

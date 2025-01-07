@@ -88,7 +88,11 @@ const Dashboard: React.FC = () => {
                                     selection
                                     options={raidSizeOptions}
                                     value={participants}
-                                    onChange={(e, { value }) => setParticipants(value.toString())}
+                                    onChange={(_, { value }) => {
+                                        if (value != null) {
+                                            setParticipants(value.toString());
+                                        }
+                                    }}
                                 />
                             </Form.Field>
                         </Grid.Column>
